@@ -1,12 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+main section{
+    margin-top: 20px;
+}
+
 html,
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: #EAEDED;
+}
+
+main{
+    padding: 20px;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: #222F3E;
+}
+
+header{
+    width: 100vw;
+    height: 8vh;
+}
+
+#head {
+    text-align: left;
+    width: 100vw;
+    height: 70%;
+    padding: 5px;
+}
+
+#head img{
+    height: 90%;
+}
+
+nav{
+    background-color: #354758;
+    height: 28%;
+    color: #CFD3D6;
+    font-size: 0.7em;
+    text-align: start;
+    padding: 3px;
+    padding-left: 20px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin-right: 5px;
+    list-style-type: none;
+    display: inline;
+}
+
+#first{
+    font-size: 0.6em;
+    padding: 4px;
+    background-color: #F56600;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    color: #EBECEC;
+}
+
+#HolidayGift{
+    background-image: url('../img/bg-image.png');
+    background-size: cover;
+    height: 140px;
+    color: #EBEDED;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+#FindThePerfectGift{
+    color: #0D0D0D;
+    text-align: center;
+    padding: 12px;
+    height: 315px;
+    background-color: #FFFFFF;
+}
+
+#scritta{
+    font-size: 0.95em;
+    text-align: left;
+}
+
+p{
+    margin: 0;
+}
+
+span{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #1D7B8D;
+}
+
+.cards img{
+    height: 255px;
+    width: 280px;
+}
+
+.cards{
+    display: inline-block;
+    height: 255px;
+    width: 220px;
+    margin: 13px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(164, 164, 164);
+    overflow: hidden;
+}
+
+.imgEN{
+    overflow: hidden;
+    width: 100%;
+}
+
+.imgEN img{
+    width: 100%;
+    height: 420px;
 }
 
 footer{
+    text-align: center;
+    height: 180px;
+}
 
+#back{
+    padding: 9px;
+    height: 35px;
+    background-color: #354758;
+}
+
+footer h4,a{
+    margin: 0;
+    font-size: 0.85em;
+    color: #EAECEC;
+}
+
+#imgF{
+    padding: 50px;
+}
+
+#imgF img{
+    width: 9vw;
 }

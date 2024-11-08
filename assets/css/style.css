@@ -27,13 +27,26 @@ header, footer{
 
 header{
     width: 100vw;
-    height: 8vh;
+    height: 75px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: rgb(163, 162, 162);
+}
+
+header a:active{
+    color: purple;
 }
 
 #head {
     text-align: left;
     width: 100vw;
-    height: 70%;
+    height: 50px;
     padding: 5px;
 }
 
@@ -43,11 +56,11 @@ header{
 
 nav{
     background-color: #354758;
-    height: 28%;
+    height: 25px;
     color: #CFD3D6;
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-align: start;
-    padding: 3px;
+    padding: 5px;
     padding-left: 20px;
 }
 
@@ -97,12 +110,6 @@ p{
     margin: 0;
 }
 
-span{
-    font-size: 0.8em;
-    font-weight: bold;
-    color: #1D7B8D;
-}
-
 .cards img{
     height: 255px;
     width: 280px;
@@ -128,6 +135,21 @@ span{
     height: 420px;
 }
 
+main a{
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #1D7B8D;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main a:active{
+    color: purple;
+}
+
 footer{
     text-align: center;
     height: 180px;
@@ -151,4 +173,8 @@ footer h4,a{
 
 #imgF img{
     width: 9vw;
+}
+
+footer a:active {
+    color: purple;
 }
